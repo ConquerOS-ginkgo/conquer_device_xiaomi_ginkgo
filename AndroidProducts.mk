@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_ginkgo.mk
+    $(LOCAL_DIR)/conquer_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_ginkgo-user \
-    wave_ginkgo-userdebug \
-    wave_ginkgo-eng
+    conquer_ginkgo-user \
+    conquer_ginkgo-userdebug \
+    conquer_ginkgo-eng

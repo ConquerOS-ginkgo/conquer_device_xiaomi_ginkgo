@@ -23,13 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common WaveOS stuff
+# Inherit some common ConquerOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-WAVE_BUILD_TYPE := OFFICIAL
-$(call inherit-product, vendor/wave/configs/common.mk)
+$(call inherit-product, vendor/conquer/configs/common.mk)
 
 # Device identifier
-PRODUCT_NAME := wave_ginkgo
+PRODUCT_NAME := conquer_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
