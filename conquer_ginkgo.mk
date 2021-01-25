@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common ConquerOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/conquer/configs/common.mk)
+$(call inherit-product, vendor/conquer/config/common.mk)
 
 # Device identifier
 PRODUCT_NAME := conquer_ginkgo
